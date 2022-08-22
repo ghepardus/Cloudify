@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E245B16128B35ED800DF4418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16028B35ED800DF4418 /* AppDelegate.swift */; };
+		E245B16328B35ED800DF4418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16228B35ED800DF4418 /* SceneDelegate.swift */; };
+		E245B16528B35ED800DF4418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16428B35ED800DF4418 /* ViewController.swift */; };
+		E245B16828B35ED800DF4418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E245B16628B35ED800DF4418 /* Main.storyboard */; };
+		E245B16A28B35EE000DF4418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E245B16928B35EE000DF4418 /* Assets.xcassets */; };
+		E245B16D28B35EE000DF4418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E245B16B28B35EE000DF4418 /* LaunchScreen.storyboard */; };
+		E245B17828B35EE000DF4418 /* CloudifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B17728B35EE000DF4418 /* CloudifyTests.swift */; };
+		E245B18228B35EE000DF4418 /* CloudifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B18128B35EE000DF4418 /* CloudifyUITests.swift */; };
+		E245B18428B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B18328B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E245B17428B35EE000DF4418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E245B15528B35ED800DF4418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E245B15C28B35ED800DF4418;
+			remoteInfo = Cloudify;
+		};
+		E245B17E28B35EE000DF4418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E245B15528B35ED800DF4418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E245B15C28B35ED800DF4418;
+			remoteInfo = Cloudify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E245B15D28B35ED800DF4418 /* Cloudify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloudify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E245B16028B35ED800DF4418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E245B16228B35ED800DF4418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E245B16428B35ED800DF4418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E245B16728B35ED800DF4418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E245B16928B35EE000DF4418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E245B16C28B35EE000DF4418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E245B16E28B35EE000DF4418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E245B17328B35EE000DF4418 /* CloudifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E245B17728B35EE000DF4418 /* CloudifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudifyTests.swift; sourceTree = "<group>"; };
+		E245B17D28B35EE000DF4418 /* CloudifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E245B18128B35EE000DF4418 /* CloudifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudifyUITests.swift; sourceTree = "<group>"; };
+		E245B18328B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E245B15A28B35ED800DF4418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E245B17028B35EE000DF4418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E245B17A28B35EE000DF4418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E245B15428B35ED800DF4418 = {
+			isa = PBXGroup;
+			children = (
+				E245B15F28B35ED800DF4418 /* Cloudify */,
+				E245B17628B35EE000DF4418 /* CloudifyTests */,
+				E245B18028B35EE000DF4418 /* CloudifyUITests */,
+				E245B15E28B35ED800DF4418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E245B15E28B35ED800DF4418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E245B15D28B35ED800DF4418 /* Cloudify.app */,
+				E245B17328B35EE000DF4418 /* CloudifyTests.xctest */,
+				E245B17D28B35EE000DF4418 /* CloudifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E245B15F28B35ED800DF4418 /* Cloudify */ = {
+			isa = PBXGroup;
+			children = (
+				E245B16028B35ED800DF4418 /* AppDelegate.swift */,
+				E245B16228B35ED800DF4418 /* SceneDelegate.swift */,
+				E245B16428B35ED800DF4418 /* ViewController.swift */,
+				E245B16628B35ED800DF4418 /* Main.storyboard */,
+				E245B16928B35EE000DF4418 /* Assets.xcassets */,
+				E245B16B28B35EE000DF4418 /* LaunchScreen.storyboard */,
+				E245B16E28B35EE000DF4418 /* Info.plist */,
+			);
+			path = Cloudify;
+			sourceTree = "<group>";
+		};
+		E245B17628B35EE000DF4418 /* CloudifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E245B17728B35EE000DF4418 /* CloudifyTests.swift */,
+			);
+			path = CloudifyTests;
+			sourceTree = "<group>";
+		};
+		E245B18028B35EE000DF4418 /* CloudifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E245B18128B35EE000DF4418 /* CloudifyUITests.swift */,
+				E245B18328B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift */,
+			);
+			path = CloudifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E245B15C28B35ED800DF4418 /* Cloudify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E245B18728B35EE000DF4418 /* Build configuration list for PBXNativeTarget "Cloudify" */;
+			buildPhases = (
+				E245B15928B35ED800DF4418 /* Sources */,
+				E245B15A28B35ED800DF4418 /* Frameworks */,
+				E245B15B28B35ED800DF4418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cloudify;
+			productName = Cloudify;
+			productReference = E245B15D28B35ED800DF4418 /* Cloudify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E245B17228B35EE000DF4418 /* CloudifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E245B18A28B35EE000DF4418 /* Build configuration list for PBXNativeTarget "CloudifyTests" */;
+			buildPhases = (
+				E245B16F28B35EE000DF4418 /* Sources */,
+				E245B17028B35EE000DF4418 /* Frameworks */,
+				E245B17128B35EE000DF4418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E245B17528B35EE000DF4418 /* PBXTargetDependency */,
+			);
+			name = CloudifyTests;
+			productName = CloudifyTests;
+			productReference = E245B17328B35EE000DF4418 /* CloudifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E245B17C28B35EE000DF4418 /* CloudifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E245B18D28B35EE000DF4418 /* Build configuration list for PBXNativeTarget "CloudifyUITests" */;
+			buildPhases = (
+				E245B17928B35EE000DF4418 /* Sources */,
+				E245B17A28B35EE000DF4418 /* Frameworks */,
+				E245B17B28B35EE000DF4418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E245B17F28B35EE000DF4418 /* PBXTargetDependency */,
+			);
+			name = CloudifyUITests;
+			productName = CloudifyUITests;
+			productReference = E245B17D28B35EE000DF4418 /* CloudifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E245B15528B35ED800DF4418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E245B15C28B35ED800DF4418 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					E245B17228B35EE000DF4418 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E245B15C28B35ED800DF4418;
+					};
+					E245B17C28B35EE000DF4418 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = E245B15C28B35ED800DF4418;
+					};
+				};
+			};
+			buildConfigurationList = E245B15828B35ED800DF4418 /* Build configuration list for PBXProject "Cloudify" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E245B15428B35ED800DF4418;
+			productRefGroup = E245B15E28B35ED800DF4418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E245B15C28B35ED800DF4418 /* Cloudify */,
+				E245B17228B35EE000DF4418 /* CloudifyTests */,
+				E245B17C28B35EE000DF4418 /* CloudifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E245B15B28B35ED800DF4418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E245B16D28B35EE000DF4418 /* LaunchScreen.storyboard in Resources */,
+				E245B16A28B35EE000DF4418 /* Assets.xcassets in Resources */,
+				E245B16828B35ED800DF4418 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E245B17128B35EE000DF4418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E245B17B28B35EE000DF4418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E245B15928B35ED800DF4418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E245B16528B35ED800DF4418 /* ViewController.swift in Sources */,
+				E245B16128B35ED800DF4418 /* AppDelegate.swift in Sources */,
+				E245B16328B35ED800DF4418 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E245B16F28B35EE000DF4418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E245B17828B35EE000DF4418 /* CloudifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E245B17928B35EE000DF4418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E245B18428B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift in Sources */,
+				E245B18228B35EE000DF4418 /* CloudifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E245B17528B35EE000DF4418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E245B15C28B35ED800DF4418 /* Cloudify */;
+			targetProxy = E245B17428B35EE000DF4418 /* PBXContainerItemProxy */;
+		};
+		E245B17F28B35EE000DF4418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E245B15C28B35ED800DF4418 /* Cloudify */;
+			targetProxy = E245B17E28B35EE000DF4418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E245B16628B35ED800DF4418 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E245B16728B35ED800DF4418 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E245B16B28B35EE000DF4418 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E245B16C28B35EE000DF4418 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E245B18528B35EE000DF4418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E245B18628B35EE000DF4418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E245B18828B35EE000DF4418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N55K8UY2QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cloudify/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msproject.Cloudify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E245B18928B35EE000DF4418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N55K8UY2QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cloudify/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msproject.Cloudify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E245B18B28B35EE000DF4418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N55K8UY2QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msproject.CloudifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloudify.app/Cloudify";
+			};
+			name = Debug;
+		};
+		E245B18C28B35EE000DF4418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N55K8UY2QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msproject.CloudifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloudify.app/Cloudify";
+			};
+			name = Release;
+		};
+		E245B18E28B35EE000DF4418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N55K8UY2QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msproject.CloudifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cloudify;
+			};
+			name = Debug;
+		};
+		E245B18F28B35EE000DF4418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N55K8UY2QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msproject.CloudifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cloudify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E245B15828B35ED800DF4418 /* Build configuration list for PBXProject "Cloudify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E245B18528B35EE000DF4418 /* Debug */,
+				E245B18628B35EE000DF4418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E245B18728B35EE000DF4418 /* Build configuration list for PBXNativeTarget "Cloudify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E245B18828B35EE000DF4418 /* Debug */,
+				E245B18928B35EE000DF4418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E245B18A28B35EE000DF4418 /* Build configuration list for PBXNativeTarget "CloudifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E245B18B28B35EE000DF4418 /* Debug */,
+				E245B18C28B35EE000DF4418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E245B18D28B35EE000DF4418 /* Build configuration list for PBXNativeTarget "CloudifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E245B18E28B35EE000DF4418 /* Debug */,
+				E245B18F28B35EE000DF4418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E245B15528B35ED800DF4418 /* Project object */;
+}
