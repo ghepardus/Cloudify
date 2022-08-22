@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02F9813F6816413C22F1C18D /* Pods_Cloudify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B381CC4FF5B20CC0A0734A /* Pods_Cloudify.framework */; };
 		E245B16128B35ED800DF4418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16028B35ED800DF4418 /* AppDelegate.swift */; };
 		E245B16328B35ED800DF4418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16228B35ED800DF4418 /* SceneDelegate.swift */; };
 		E245B16528B35ED800DF4418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16428B35ED800DF4418 /* ViewController.swift */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78B381CC4FF5B20CC0A0734A /* Pods_Cloudify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloudify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FA8EFE681C6CB6FF8B2018 /* Pods-Cloudify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloudify.release.xcconfig"; path = "Target Support Files/Pods-Cloudify/Pods-Cloudify.release.xcconfig"; sourceTree = "<group>"; };
+		D18AADB4FA33639EA2C30CED /* Pods-Cloudify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloudify.debug.xcconfig"; path = "Target Support Files/Pods-Cloudify/Pods-Cloudify.debug.xcconfig"; sourceTree = "<group>"; };
 		E245B15D28B35ED800DF4418 /* Cloudify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloudify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E245B16028B35ED800DF4418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E245B16228B35ED800DF4418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F9813F6816413C22F1C18D /* Pods_Cloudify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5CD7A920BE2768A91475DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D18AADB4FA33639EA2C30CED /* Pods-Cloudify.debug.xcconfig */,
+				A9FA8EFE681C6CB6FF8B2018 /* Pods-Cloudify.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A931A2AB01A6B9FA4B1AEEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78B381CC4FF5B20CC0A0734A /* Pods_Cloudify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E245B15428B35ED800DF4418 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				E245B17628B35EE000DF4418 /* CloudifyTests */,
 				E245B18028B35EE000DF4418 /* CloudifyUITests */,
 				E245B15E28B35ED800DF4418 /* Products */,
+				2B5CD7A920BE2768A91475DD /* Pods */,
+				A931A2AB01A6B9FA4B1AEEAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E245B18728B35EE000DF4418 /* Build configuration list for PBXNativeTarget "Cloudify" */;
 			buildPhases = (
+				B6506A7BCC4F524FB0F6B1D0 /* [CP] Check Pods Manifest.lock */,
 				E245B15928B35ED800DF4418 /* Sources */,
 				E245B15A28B35ED800DF4418 /* Frameworks */,
 				E245B15B28B35ED800DF4418 /* Resources */,
+				ADE6EEF2D0ECD19C8BEA4621 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADE6EEF2D0ECD19C8BEA4621 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloudify/Pods-Cloudify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloudify/Pods-Cloudify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cloudify/Pods-Cloudify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6506A7BCC4F524FB0F6B1D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloudify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E245B15928B35ED800DF4418 /* Sources */ = {
@@ -432,6 +501,7 @@
 		};
 		E245B18828B35EE000DF4418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18AADB4FA33639EA2C30CED /* Pods-Cloudify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +530,7 @@
 		};
 		E245B18928B35EE000DF4418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FA8EFE681C6CB6FF8B2018 /* Pods-Cloudify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
