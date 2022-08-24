@@ -8,6 +8,7 @@ target 'Cloudify' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxGesture'
+  pod 'RxDataSources', '~> 5.0'
   pod 'Swinject'
   pod 'Alamofire', '~> 5.4'
 

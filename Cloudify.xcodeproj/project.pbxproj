@@ -11,12 +11,40 @@
 		E245B16128B35ED800DF4418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16028B35ED800DF4418 /* AppDelegate.swift */; };
 		E245B16328B35ED800DF4418 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16228B35ED800DF4418 /* SceneDelegate.swift */; };
 		E245B16528B35ED800DF4418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B16428B35ED800DF4418 /* ViewController.swift */; };
-		E245B16828B35ED800DF4418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E245B16628B35ED800DF4418 /* Main.storyboard */; };
 		E245B16A28B35EE000DF4418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E245B16928B35EE000DF4418 /* Assets.xcassets */; };
 		E245B16D28B35EE000DF4418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E245B16B28B35EE000DF4418 /* LaunchScreen.storyboard */; };
 		E245B17828B35EE000DF4418 /* CloudifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B17728B35EE000DF4418 /* CloudifyTests.swift */; };
 		E245B18228B35EE000DF4418 /* CloudifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B18128B35EE000DF4418 /* CloudifyUITests.swift */; };
 		E245B18428B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B18328B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift */; };
+		E245B19428B3633C00DF4418 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B19328B3633C00DF4418 /* Coordinator.swift */; };
+		E245B19928B364FF00DF4418 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B19828B364FF00DF4418 /* MainCoordinator.swift */; };
+		E245B19C28B3655B00DF4418 /* Container+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B19B28B3655B00DF4418 /* Container+Extention.swift */; };
+		E245B1A028B36B1C00DF4418 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B19E28B36B1C00DF4418 /* SplashViewController.swift */; };
+		E245B1A128B36B1C00DF4418 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E245B19F28B36B1C00DF4418 /* SplashViewController.xib */; };
+		E245B1A428B36B9500DF4418 /* MSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B1A328B36B9500DF4418 /* MSViewController.swift */; };
+		E245B1A728B36C6100DF4418 /* MSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B1A628B36C6100DF4418 /* MSViewModel.swift */; };
+		E245B1A928B36C8A00DF4418 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B1A828B36C8A00DF4418 /* SplashViewModel.swift */; };
+		E282EB5728B4FFAD00AD1236 /* ImageCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282EB5628B4FFAD00AD1236 /* ImageCompatible.swift */; };
+		E2BB44D728B509A2001DB634 /* PhotoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44D628B509A2001DB634 /* PhotoImage.swift */; };
+		E2BB44DA28B509D2001DB634 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44D828B509D2001DB634 /* PhotoCollectionViewCell.swift */; };
+		E2BB44DB28B509D2001DB634 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BB44D928B509D2001DB634 /* PhotoCollectionViewCell.xib */; };
+		E2C70BC628B3A53C009F6125 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BC428B3A53C009F6125 /* HomeViewController.swift */; };
+		E2C70BC728B3A53C009F6125 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C70BC528B3A53C009F6125 /* HomeViewController.xib */; };
+		E2C70BC928B3A54E009F6125 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BC828B3A54E009F6125 /* HomeViewModel.swift */; };
+		E2C70BCC28B3A5A4009F6125 /* CountrySelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BCB28B3A5A4009F6125 /* CountrySelectionViewModel.swift */; };
+		E2C70BCF28B3A5B4009F6125 /* CountrySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BCD28B3A5B4009F6125 /* CountrySelectionViewController.swift */; };
+		E2C70BD028B3A5B4009F6125 /* CountrySelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C70BCE28B3A5B4009F6125 /* CountrySelectionViewController.xib */; };
+		E2C70BD528B3AA42009F6125 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2C70BD728B3AA42009F6125 /* Localizable.strings */; };
+		E2C70BDB28B3AA87009F6125 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BDA28B3AA87009F6125 /* String+Localization.swift */; };
+		E2C70BDE28B3B15D009F6125 /* Button+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BDD28B3B15D009F6125 /* Button+Title.swift */; };
+		E2C70BE128B3BE1D009F6125 /* CountryCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BE028B3BE1D009F6125 /* CountryCompatible.swift */; };
+		E2C70BE528B3BF80009F6125 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BE428B3BF80009F6125 /* Country.swift */; };
+		E2C70BE728B3D13F009F6125 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BE628B3D13F009F6125 /* CustomError.swift */; };
+		E2C70BE928B3D24D009F6125 /* BaseCountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BE828B3D24D009F6125 /* BaseCountryRepository.swift */; };
+		E2C70BEB28B3D2A3009F6125 /* MockCountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BEA28B3D2A3009F6125 /* MockCountryRepository.swift */; };
+		E2C70BED28B3D45F009F6125 /* CountryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BEC28B3D45F009F6125 /* CountryRepository.swift */; };
+		E2C70BF028B4B204009F6125 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BEE28B4B204009F6125 /* CountryTableViewCell.swift */; };
+		E2C70BF128B4B204009F6125 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C70BEF28B4B204009F6125 /* CountryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +72,6 @@
 		E245B16028B35ED800DF4418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E245B16228B35ED800DF4418 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E245B16428B35ED800DF4418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E245B16728B35ED800DF4418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E245B16928B35EE000DF4418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E245B16C28B35EE000DF4418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E245B16E28B35EE000DF4418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +80,36 @@
 		E245B17D28B35EE000DF4418 /* CloudifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E245B18128B35EE000DF4418 /* CloudifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudifyUITests.swift; sourceTree = "<group>"; };
 		E245B18328B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E245B19328B3633C00DF4418 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E245B19828B364FF00DF4418 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		E245B19B28B3655B00DF4418 /* Container+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container+Extention.swift"; sourceTree = "<group>"; };
+		E245B19E28B36B1C00DF4418 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		E245B19F28B36B1C00DF4418 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		E245B1A328B36B9500DF4418 /* MSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSViewController.swift; sourceTree = "<group>"; };
+		E245B1A628B36C6100DF4418 /* MSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSViewModel.swift; sourceTree = "<group>"; };
+		E245B1A828B36C8A00DF4418 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		E282EB5628B4FFAD00AD1236 /* ImageCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompatible.swift; sourceTree = "<group>"; };
+		E2BB44D628B509A2001DB634 /* PhotoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImage.swift; sourceTree = "<group>"; };
+		E2BB44D828B509D2001DB634 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E2BB44D928B509D2001DB634 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		E2C70BC428B3A53C009F6125 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E2C70BC528B3A53C009F6125 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		E2C70BC828B3A54E009F6125 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		E2C70BCB28B3A5A4009F6125 /* CountrySelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewModel.swift; sourceTree = "<group>"; };
+		E2C70BCD28B3A5B4009F6125 /* CountrySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewController.swift; sourceTree = "<group>"; };
+		E2C70BCE28B3A5B4009F6125 /* CountrySelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountrySelectionViewController.xib; sourceTree = "<group>"; };
+		E2C70BD628B3AA42009F6125 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E2C70BDA28B3AA87009F6125 /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		E2C70BDC28B3AAD8009F6125 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E2C70BDD28B3B15D009F6125 /* Button+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Title.swift"; sourceTree = "<group>"; };
+		E2C70BE028B3BE1D009F6125 /* CountryCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCompatible.swift; sourceTree = "<group>"; };
+		E2C70BE428B3BF80009F6125 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		E2C70BE628B3D13F009F6125 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		E2C70BE828B3D24D009F6125 /* BaseCountryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCountryRepository.swift; sourceTree = "<group>"; };
+		E2C70BEA28B3D2A3009F6125 /* MockCountryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCountryRepository.swift; sourceTree = "<group>"; };
+		E2C70BEC28B3D45F009F6125 /* CountryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRepository.swift; sourceTree = "<group>"; };
+		E2C70BEE28B4B204009F6125 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		E2C70BEF28B4B204009F6125 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +144,6 @@
 				D18AADB4FA33639EA2C30CED /* Pods-Cloudify.debug.xcconfig */,
 				A9FA8EFE681C6CB6FF8B2018 /* Pods-Cloudify.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,13 +180,16 @@
 		E245B15F28B35ED800DF4418 /* Cloudify */ = {
 			isa = PBXGroup;
 			children = (
+				E245B19628B3648D00DF4418 /* Data */,
+				E245B19528B3648100DF4418 /* UI */,
+				E245B19028B3631900DF4418 /* Common */,
 				E245B16028B35ED800DF4418 /* AppDelegate.swift */,
 				E245B16228B35ED800DF4418 /* SceneDelegate.swift */,
 				E245B16428B35ED800DF4418 /* ViewController.swift */,
-				E245B16628B35ED800DF4418 /* Main.storyboard */,
 				E245B16928B35EE000DF4418 /* Assets.xcassets */,
 				E245B16B28B35EE000DF4418 /* LaunchScreen.storyboard */,
 				E245B16E28B35EE000DF4418 /* Info.plist */,
+				E2C70BD728B3AA42009F6125 /* Localizable.strings */,
 			);
 			path = Cloudify;
 			sourceTree = "<group>";
@@ -150,6 +209,159 @@
 				E245B18328B35EE000DF4418 /* CloudifyUITestsLaunchTests.swift */,
 			);
 			path = CloudifyUITests;
+			sourceTree = "<group>";
+		};
+		E245B19028B3631900DF4418 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E2C70BD928B3AA69009F6125 /* Extensions */,
+				E245B1A528B36C4E00DF4418 /* Protocols */,
+				E245B1A228B36B8200DF4418 /* ViewControllers */,
+				E245B19A28B3653400DF4418 /* Dependency Injection */,
+				E245B19328B3633C00DF4418 /* Coordinator.swift */,
+				E2C70BE628B3D13F009F6125 /* CustomError.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E245B19528B3648100DF4418 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E2C70BCA28B3A58C009F6125 /* CountrySelection */,
+				E2C70BC328B3A526009F6125 /* Home */,
+				E245B19D28B36B0500DF4418 /* Splash */,
+				E245B19728B364B400DF4418 /* Coordinator */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E245B19628B3648D00DF4418 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E2C70BE228B3BF4B009F6125 /* Repositories */,
+				E2C70BDF28B3BE08009F6125 /* Protocols */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E245B19728B364B400DF4418 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E245B19828B364FF00DF4418 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		E245B19A28B3653400DF4418 /* Dependency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				E245B19B28B3655B00DF4418 /* Container+Extention.swift */,
+			);
+			path = "Dependency Injection";
+			sourceTree = "<group>";
+		};
+		E245B19D28B36B0500DF4418 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				E245B19E28B36B1C00DF4418 /* SplashViewController.swift */,
+				E245B19F28B36B1C00DF4418 /* SplashViewController.xib */,
+				E245B1A828B36C8A00DF4418 /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E245B1A228B36B8200DF4418 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E245B1A328B36B9500DF4418 /* MSViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E245B1A528B36C4E00DF4418 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E245B1A628B36C6100DF4418 /* MSViewModel.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E2BB44D428B50973001DB634 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E2BB44D828B509D2001DB634 /* PhotoCollectionViewCell.swift */,
+				E2BB44D928B509D2001DB634 /* PhotoCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E2BB44D528B5097F001DB634 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2BB44D628B509A2001DB634 /* PhotoImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2C70BC328B3A526009F6125 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E2BB44D528B5097F001DB634 /* Model */,
+				E2BB44D428B50973001DB634 /* Cell */,
+				E2C70BC428B3A53C009F6125 /* HomeViewController.swift */,
+				E2C70BC528B3A53C009F6125 /* HomeViewController.xib */,
+				E2C70BC828B3A54E009F6125 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E2C70BCA28B3A58C009F6125 /* CountrySelection */ = {
+			isa = PBXGroup;
+			children = (
+				E2C70BCB28B3A5A4009F6125 /* CountrySelectionViewModel.swift */,
+				E2C70BCD28B3A5B4009F6125 /* CountrySelectionViewController.swift */,
+				E2C70BCE28B3A5B4009F6125 /* CountrySelectionViewController.xib */,
+				E2C70BEE28B4B204009F6125 /* CountryTableViewCell.swift */,
+				E2C70BEF28B4B204009F6125 /* CountryTableViewCell.xib */,
+			);
+			path = CountrySelection;
+			sourceTree = "<group>";
+		};
+		E2C70BD928B3AA69009F6125 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2C70BDA28B3AA87009F6125 /* String+Localization.swift */,
+				E2C70BDD28B3B15D009F6125 /* Button+Title.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2C70BDF28B3BE08009F6125 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E2C70BE028B3BE1D009F6125 /* CountryCompatible.swift */,
+				E282EB5628B4FFAD00AD1236 /* ImageCompatible.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E2C70BE228B3BF4B009F6125 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E2C70BE328B3BF62009F6125 /* ContryList */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E2C70BE328B3BF62009F6125 /* ContryList */ = {
+			isa = PBXGroup;
+			children = (
+				E2C70BE428B3BF80009F6125 /* Country.swift */,
+				E2C70BE828B3D24D009F6125 /* BaseCountryRepository.swift */,
+				E2C70BEC28B3D45F009F6125 /* CountryRepository.swift */,
+				E2C70BEA28B3D2A3009F6125 /* MockCountryRepository.swift */,
+			);
+			path = ContryList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +452,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = E245B15428B35ED800DF4418;
 			productRefGroup = E245B15E28B35ED800DF4418 /* Products */;
@@ -259,8 +472,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E245B16D28B35EE000DF4418 /* LaunchScreen.storyboard in Resources */,
+				E2C70BD528B3AA42009F6125 /* Localizable.strings in Resources */,
+				E2C70BF128B4B204009F6125 /* CountryTableViewCell.xib in Resources */,
 				E245B16A28B35EE000DF4418 /* Assets.xcassets in Resources */,
-				E245B16828B35ED800DF4418 /* Main.storyboard in Resources */,
+				E245B1A128B36B1C00DF4418 /* SplashViewController.xib in Resources */,
+				E2BB44DB28B509D2001DB634 /* PhotoCollectionViewCell.xib in Resources */,
+				E2C70BC728B3A53C009F6125 /* HomeViewController.xib in Resources */,
+				E2C70BD028B3A5B4009F6125 /* CountrySelectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +545,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E245B1A428B36B9500DF4418 /* MSViewController.swift in Sources */,
+				E2BB44DA28B509D2001DB634 /* PhotoCollectionViewCell.swift in Sources */,
+				E2C70BE928B3D24D009F6125 /* BaseCountryRepository.swift in Sources */,
+				E245B19428B3633C00DF4418 /* Coordinator.swift in Sources */,
+				E2BB44D728B509A2001DB634 /* PhotoImage.swift in Sources */,
+				E282EB5728B4FFAD00AD1236 /* ImageCompatible.swift in Sources */,
 				E245B16528B35ED800DF4418 /* ViewController.swift in Sources */,
+				E2C70BEB28B3D2A3009F6125 /* MockCountryRepository.swift in Sources */,
+				E245B19C28B3655B00DF4418 /* Container+Extention.swift in Sources */,
+				E2C70BCF28B3A5B4009F6125 /* CountrySelectionViewController.swift in Sources */,
 				E245B16128B35ED800DF4418 /* AppDelegate.swift in Sources */,
+				E2C70BDE28B3B15D009F6125 /* Button+Title.swift in Sources */,
+				E2C70BE728B3D13F009F6125 /* CustomError.swift in Sources */,
+				E2C70BED28B3D45F009F6125 /* CountryRepository.swift in Sources */,
+				E245B1A928B36C8A00DF4418 /* SplashViewModel.swift in Sources */,
+				E245B19928B364FF00DF4418 /* MainCoordinator.swift in Sources */,
+				E2C70BC928B3A54E009F6125 /* HomeViewModel.swift in Sources */,
+				E2C70BE528B3BF80009F6125 /* Country.swift in Sources */,
+				E2C70BDB28B3AA87009F6125 /* String+Localization.swift in Sources */,
+				E2C70BC628B3A53C009F6125 /* HomeViewController.swift in Sources */,
+				E2C70BE128B3BE1D009F6125 /* CountryCompatible.swift in Sources */,
+				E245B1A028B36B1C00DF4418 /* SplashViewController.swift in Sources */,
+				E2C70BCC28B3A5A4009F6125 /* CountrySelectionViewModel.swift in Sources */,
+				E2C70BF028B4B204009F6125 /* CountryTableViewCell.swift in Sources */,
+				E245B1A728B36C6100DF4418 /* MSViewModel.swift in Sources */,
 				E245B16328B35ED800DF4418 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,20 +607,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E245B16628B35ED800DF4418 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E245B16728B35ED800DF4418 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E245B16B28B35EE000DF4418 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E245B16C28B35EE000DF4418 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E2C70BD728B3AA42009F6125 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C70BD628B3AA42009F6125 /* en */,
+				E2C70BDC28B3AAD8009F6125 /* it */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -389,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -449,6 +692,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -510,11 +754,14 @@
 				DEVELOPMENT_TEAM = N55K8UY2QY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cloudify/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to take pictures to upload in cloud.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your photos to upload in cloud.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,11 +786,14 @@
 				DEVELOPMENT_TEAM = N55K8UY2QY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cloudify/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to take pictures to upload in cloud.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your photos to upload in cloud.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

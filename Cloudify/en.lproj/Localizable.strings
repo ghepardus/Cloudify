@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Cloudify
+
+  Created by Mario Severino on 22/08/22.
+  
+*/
+
+"cancel" = "Cancel";
+"home.contry.choose" = "Please select a country";
+"home.contry.list.button" = "Contry list";
+"country.list.searchbar.placeholder" = "Search a Country";
+"alert.picker.camera" = "Take photo";
+"alert.picker.photoLibrary" = "Photo Library";
