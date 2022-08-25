@@ -35,7 +35,7 @@ class UploadViewModel: MSViewModel {
         
         self.innerCurrentImageNumber += 1
         
-        self.currentImageName.accept(image.imageName ?? "-")
+        self.currentImageName.accept(image.imageName ?? "image.jpeg")
         self.currentImageNumber.accept("\(self.innerCurrentImageNumber)/\(self.totalNumberImages)")
         
         self.uploadRepository.upload(image: image, maxSize: 500000)
@@ -45,9 +45,8 @@ class UploadViewModel: MSViewModel {
             guard let self = self else { return }
             switch result {
             case .success(let url):
-                if let uploadedImage = image.editedImage,
-                   let uploadedImageName = image.imageName {
-                    self.uploadedImages.append(UploadedImage(image: uploadedImage, imageName: uploadedImageName, imageUrl: url))
+                if let uploadedImage = image.editedImage {
+                    self.uploadedImages.append(UploadedImage(image: uploadedImage, imageName: image.imageName ?? "image.jpeg", imageUrl: url))
                 }
                 if self.totalNumberImages == self.innerCurrentImageNumber {
                     self.uploadDone.accept(true)
