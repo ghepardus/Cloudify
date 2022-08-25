@@ -7,8 +7,14 @@
 */
 
 "cancel" = "Cancel";
-"home.contry.choose" = "Please select a country";
-"home.contry.list.button" = "Contry list";
+"home.contry.title" = "Country";
+"home.no.contry" = "No Country selected";
+"home.contry.list.button" = "1. Select Country";
+"home.load.button" = "2. Load Photo";
+"home.upload.button" = "3. Upload";
 "country.list.searchbar.placeholder" = "Search a Country";
 "alert.picker.camera" = "Take photo";
 "alert.picker.photoLibrary" = "Photo Library";
+"upload.image.title" = "Uploading image";
+"alert.copy.title" = "Info";
+"alert.copy.message" = "Image url copied into clipboard";

@@ -11,5 +11,6 @@ import UIKit
 protocol ImageCompatible {
     var originalImage: UIImage? { get set }
     var editedImage: UIImage? { get set }
-    var imageURL: String? { get set }
+    var imageURL: URL? { get set }
+    var imageName: String? { get set }
 }

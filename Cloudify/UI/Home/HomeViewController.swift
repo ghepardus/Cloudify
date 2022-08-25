@@ -13,11 +13,14 @@ import RxDataSources
 
 class HomeViewController: MSViewController {
     
-    @IBOutlet var countryListButton: UIButton!
+    @IBOutlet var countryTitleLabel: UILabel!
     @IBOutlet var countryLabel: UILabel!
+    @IBOutlet var photoTitleLabel: UILabel!
+    @IBOutlet var countryListButton: UIButton!
+    @IBOutlet var collectionView: UICollectionView!
     @IBOutlet var loadButton: UIButton!
     @IBOutlet var uploadButton: UIButton!
-    @IBOutlet var collectionView: UICollectionView!
+    
 
     private var pickerController: UIImagePickerController?
     weak var coordinator: MainCoordinator?
@@ -34,8 +37,11 @@ class HomeViewController: MSViewController {
     }
     
     private func configureUI() {
-        self.countryLabel.text = "home.contry.choose".localized
+        self.countryLabel.text = "home.no.contry".localized
+        self.countryTitleLabel.text = "home.contry.title".localized
         self.countryListButton.setCustomTitle(title: "home.contry.list.button".localized)
+        self.loadButton.setCustomTitle(title: "home.load.button".localized)
+        self.uploadButton.setCustomTitle(title: "home.upload.button".localized)
         
         self.collectionView.register(UINib(nibName: "PhotoCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cellId")
     }
@@ -59,7 +65,7 @@ class HomeViewController: MSViewController {
             .rx
             .observe(String.self, "text")
             .map({ text in
-                    text != "home.contry.choose".localized
+                    text != "home.no.contry".localized
             })
             .bind(to: self.loadButton.rx.isEnabled)
             .disposed(by: disposeBag)
@@ -68,6 +74,12 @@ class HomeViewController: MSViewController {
             .rx
             .tap
             .bind { [weak self] in self?.chooseImagePickerType() }
+            .disposed(by: disposeBag)
+        
+        self.uploadButton
+            .rx
+            .tap
+            .bind { [weak self] in self?.upload() }
             .disposed(by: disposeBag)
         
         self.selectedImages
@@ -128,6 +140,10 @@ class HomeViewController: MSViewController {
         var images = self.selectedImages.value
         images.append(PhotoImage(imageInfo: imageInfo))
         self.selectedImages.accept(images)
+    }
+    
+    private func upload() {
+        self.coordinator?.upload(images: self.selectedImages.value)
     }
 
 }

@@ -30,6 +30,9 @@ class CountrySelectionViewController: MSViewController {
     
     private func configureUI() {
         self.searchBar.placeholder = "country.list.searchbar.placeholder".localized
+        
+        self.tableView.rx.setDelegate(self).disposed(by: self.disposeBag)
+        self.tableView.register(UINib(nibName: "CountryTableViewCell", bundle: nil), forCellReuseIdentifier: "cellId")
     }
     
     private func bindData() {
@@ -38,12 +41,8 @@ class CountrySelectionViewController: MSViewController {
             .subscribe(onNext: { [weak self] text in
                 self?.viewModel.search(searchString: text)
             }).disposed(by: self.disposeBag)
-        
-        self.tableView.rx.setDelegate(self).disposed(by: self.disposeBag)
-        
-        self.tableView.register(UINib(nibName: "CountryTableViewCell", bundle: nil), forCellReuseIdentifier: "cellId")
                 
-        self.viewModel.items.bind(to: tableView.rx.items(cellIdentifier: "cellId", cellType: CountryTableViewCell.self)) { [weak self] (row,item,cell) in
+        self.viewModel.items.bind(to: self.tableView.rx.items(cellIdentifier: "cellId", cellType: CountryTableViewCell.self)) { [weak self] (row,item,cell) in
             
             cell.item = item
             cell.selectionStyle = .none

@@ -7,8 +7,14 @@
 */
 
 "cancel" = "Annulla";
-"home.contry.choose" = "Seleziona un paese";
-"home.contry.list.button" = "Lista Paesi";
+"home.contry.title" = "Paese";
+"home.no.contry" = "Nessun Paese selezionato";
+"home.contry.list.button" = "1. Scegli Paese";
+"home.load.button" = "2. Carica Foto";
+"home.upload.button" = "3. Upload";
 "country.list.searchbar.placeholder" = "Cerca un paese";
 "alert.picker.camera" = "Scatta foto";
 "alert.picker.photoLibrary" = "Libreria foto";
+"upload.image.title" = "Caricamento immagine";
+"alert.copy.title" = "Info";
+"alert.copy.message" = "Url dell'immagine copiato negli appunti";

@@ -25,9 +25,19 @@
 		E245B1A728B36C6100DF4418 /* MSViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B1A628B36C6100DF4418 /* MSViewModel.swift */; };
 		E245B1A928B36C8A00DF4418 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245B1A828B36C8A00DF4418 /* SplashViewModel.swift */; };
 		E282EB5728B4FFAD00AD1236 /* ImageCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E282EB5628B4FFAD00AD1236 /* ImageCompatible.swift */; };
+		E28C380428B6472600B4D564 /* Data+ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C380328B6472600B4D564 /* Data+ImageUtils.swift */; };
+		E28C380628B6601500B4D564 /* UploadedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C380528B6601500B4D564 /* UploadedImage.swift */; };
+		E28D1C4528B75A7900011DFF /* UploadedImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28D1C4328B75A7900011DFF /* UploadedImageTableViewCell.swift */; };
+		E28D1C4628B75A7900011DFF /* UploadedImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E28D1C4428B75A7900011DFF /* UploadedImageTableViewCell.xib */; };
 		E2BB44D728B509A2001DB634 /* PhotoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44D628B509A2001DB634 /* PhotoImage.swift */; };
 		E2BB44DA28B509D2001DB634 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44D828B509D2001DB634 /* PhotoCollectionViewCell.swift */; };
 		E2BB44DB28B509D2001DB634 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BB44D928B509D2001DB634 /* PhotoCollectionViewCell.xib */; };
+		E2BB44DF28B60E93001DB634 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44DD28B60E93001DB634 /* UploadViewController.swift */; };
+		E2BB44E028B60E93001DB634 /* UploadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2BB44DE28B60E93001DB634 /* UploadViewController.xib */; };
+		E2BB44E228B60EA1001DB634 /* UploadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44E128B60EA1001DB634 /* UploadViewModel.swift */; };
+		E2BB44E528B60EC8001DB634 /* BaseUploadRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44E428B60EC8001DB634 /* BaseUploadRepository.swift */; };
+		E2BB44E728B60F2A001DB634 /* UploadRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44E628B60F2A001DB634 /* UploadRepository.swift */; };
+		E2BB44E928B6100A001DB634 /* MockUploadRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB44E828B6100A001DB634 /* MockUploadRepository.swift */; };
 		E2C70BC628B3A53C009F6125 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BC428B3A53C009F6125 /* HomeViewController.swift */; };
 		E2C70BC728B3A53C009F6125 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C70BC528B3A53C009F6125 /* HomeViewController.xib */; };
 		E2C70BC928B3A54E009F6125 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C70BC828B3A54E009F6125 /* HomeViewModel.swift */; };
@@ -89,9 +99,19 @@
 		E245B1A628B36C6100DF4418 /* MSViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSViewModel.swift; sourceTree = "<group>"; };
 		E245B1A828B36C8A00DF4418 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		E282EB5628B4FFAD00AD1236 /* ImageCompatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompatible.swift; sourceTree = "<group>"; };
+		E28C380328B6472600B4D564 /* Data+ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+ImageUtils.swift"; sourceTree = "<group>"; };
+		E28C380528B6601500B4D564 /* UploadedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadedImage.swift; sourceTree = "<group>"; };
+		E28D1C4328B75A7900011DFF /* UploadedImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadedImageTableViewCell.swift; sourceTree = "<group>"; };
+		E28D1C4428B75A7900011DFF /* UploadedImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadedImageTableViewCell.xib; sourceTree = "<group>"; };
 		E2BB44D628B509A2001DB634 /* PhotoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImage.swift; sourceTree = "<group>"; };
 		E2BB44D828B509D2001DB634 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		E2BB44D928B509D2001DB634 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		E2BB44DD28B60E93001DB634 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		E2BB44DE28B60E93001DB634 /* UploadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadViewController.xib; sourceTree = "<group>"; };
+		E2BB44E128B60EA1001DB634 /* UploadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewModel.swift; sourceTree = "<group>"; };
+		E2BB44E428B60EC8001DB634 /* BaseUploadRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUploadRepository.swift; sourceTree = "<group>"; };
+		E2BB44E628B60F2A001DB634 /* UploadRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadRepository.swift; sourceTree = "<group>"; };
+		E2BB44E828B6100A001DB634 /* MockUploadRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUploadRepository.swift; sourceTree = "<group>"; };
 		E2C70BC428B3A53C009F6125 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E2C70BC528B3A53C009F6125 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		E2C70BC828B3A54E009F6125 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
@@ -227,6 +247,7 @@
 		E245B19528B3648100DF4418 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				E2BB44DC28B60E7B001DB634 /* Upload */,
 				E2C70BCA28B3A58C009F6125 /* CountrySelection */,
 				E2C70BC328B3A526009F6125 /* Home */,
 				E245B19D28B36B0500DF4418 /* Splash */,
@@ -303,6 +324,29 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E2BB44DC28B60E7B001DB634 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				E2BB44DD28B60E93001DB634 /* UploadViewController.swift */,
+				E2BB44DE28B60E93001DB634 /* UploadViewController.xib */,
+				E2BB44E128B60EA1001DB634 /* UploadViewModel.swift */,
+				E28C380528B6601500B4D564 /* UploadedImage.swift */,
+				E28D1C4328B75A7900011DFF /* UploadedImageTableViewCell.swift */,
+				E28D1C4428B75A7900011DFF /* UploadedImageTableViewCell.xib */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		E2BB44E328B60EB7001DB634 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				E2BB44E428B60EC8001DB634 /* BaseUploadRepository.swift */,
+				E2BB44E828B6100A001DB634 /* MockUploadRepository.swift */,
+				E2BB44E628B60F2A001DB634 /* UploadRepository.swift */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
 		E2C70BC328B3A526009F6125 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +376,7 @@
 			children = (
 				E2C70BDA28B3AA87009F6125 /* String+Localization.swift */,
 				E2C70BDD28B3B15D009F6125 /* Button+Title.swift */,
+				E28C380328B6472600B4D564 /* Data+ImageUtils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -348,6 +393,7 @@
 		E2C70BE228B3BF4B009F6125 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				E2BB44E328B60EB7001DB634 /* Upload */,
 				E2C70BE328B3BF62009F6125 /* ContryList */,
 			);
 			path = Repositories;
@@ -472,11 +518,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E245B16D28B35EE000DF4418 /* LaunchScreen.storyboard in Resources */,
+				E2BB44E028B60E93001DB634 /* UploadViewController.xib in Resources */,
 				E2C70BD528B3AA42009F6125 /* Localizable.strings in Resources */,
 				E2C70BF128B4B204009F6125 /* CountryTableViewCell.xib in Resources */,
 				E245B16A28B35EE000DF4418 /* Assets.xcassets in Resources */,
 				E245B1A128B36B1C00DF4418 /* SplashViewController.xib in Resources */,
 				E2BB44DB28B509D2001DB634 /* PhotoCollectionViewCell.xib in Resources */,
+				E28D1C4628B75A7900011DFF /* UploadedImageTableViewCell.xib in Resources */,
 				E2C70BC728B3A53C009F6125 /* HomeViewController.xib in Resources */,
 				E2C70BD028B3A5B4009F6125 /* CountrySelectionViewController.xib in Resources */,
 			);
@@ -549,11 +597,14 @@
 				E2BB44DA28B509D2001DB634 /* PhotoCollectionViewCell.swift in Sources */,
 				E2C70BE928B3D24D009F6125 /* BaseCountryRepository.swift in Sources */,
 				E245B19428B3633C00DF4418 /* Coordinator.swift in Sources */,
+				E2BB44DF28B60E93001DB634 /* UploadViewController.swift in Sources */,
 				E2BB44D728B509A2001DB634 /* PhotoImage.swift in Sources */,
 				E282EB5728B4FFAD00AD1236 /* ImageCompatible.swift in Sources */,
 				E245B16528B35ED800DF4418 /* ViewController.swift in Sources */,
 				E2C70BEB28B3D2A3009F6125 /* MockCountryRepository.swift in Sources */,
+				E28C380428B6472600B4D564 /* Data+ImageUtils.swift in Sources */,
 				E245B19C28B3655B00DF4418 /* Container+Extention.swift in Sources */,
+				E28C380628B6601500B4D564 /* UploadedImage.swift in Sources */,
 				E2C70BCF28B3A5B4009F6125 /* CountrySelectionViewController.swift in Sources */,
 				E245B16128B35ED800DF4418 /* AppDelegate.swift in Sources */,
 				E2C70BDE28B3B15D009F6125 /* Button+Title.swift in Sources */,
@@ -562,9 +613,14 @@
 				E245B1A928B36C8A00DF4418 /* SplashViewModel.swift in Sources */,
 				E245B19928B364FF00DF4418 /* MainCoordinator.swift in Sources */,
 				E2C70BC928B3A54E009F6125 /* HomeViewModel.swift in Sources */,
+				E2BB44E528B60EC8001DB634 /* BaseUploadRepository.swift in Sources */,
 				E2C70BE528B3BF80009F6125 /* Country.swift in Sources */,
+				E28D1C4528B75A7900011DFF /* UploadedImageTableViewCell.swift in Sources */,
 				E2C70BDB28B3AA87009F6125 /* String+Localization.swift in Sources */,
 				E2C70BC628B3A53C009F6125 /* HomeViewController.swift in Sources */,
+				E2BB44E928B6100A001DB634 /* MockUploadRepository.swift in Sources */,
+				E2BB44E728B60F2A001DB634 /* UploadRepository.swift in Sources */,
+				E2BB44E228B60EA1001DB634 /* UploadViewModel.swift in Sources */,
 				E2C70BE128B3BE1D009F6125 /* CountryCompatible.swift in Sources */,
 				E245B1A028B36B1C00DF4418 /* SplashViewController.swift in Sources */,
 				E2C70BCC28B3A5A4009F6125 /* CountrySelectionViewModel.swift in Sources */,

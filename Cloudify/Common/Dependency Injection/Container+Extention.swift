@@ -25,8 +25,10 @@ extension Container {
         // Repositories
         if (Bundle.main.object(forInfoDictionaryKey: "Mock Environment") as? Bool) ?? true {
             container.register(BaseCountryRepository.self) { _ in MockCountryRepository() }
+            container.register(BaseUploadRepository.self) { _ in MockUploadRepository() }
         } else {
             container.register(BaseCountryRepository.self) { _ in CountryRepository() }
+            container.register(BaseUploadRepository.self) { _ in UploadRepository() }
         }
         
         
@@ -42,6 +44,12 @@ extension Container {
         container.register(CountrySelectionViewModel.self) { r in
             CountrySelectionViewModel(
                 countryRepository: r.resolve(BaseCountryRepository.self)!
+            )
+        }
+        
+        container.register(UploadViewModel.self) { r in
+            UploadViewModel(
+                uploadRepository: r.resolve(BaseUploadRepository.self)!
             )
         }
         
@@ -62,6 +70,12 @@ extension Container {
         container.register(CountrySelectionViewController.self) { r in
             let controller = CountrySelectionViewController()
             controller.viewModel = r.resolve(CountrySelectionViewModel.self)
+            return controller
+        }
+        
+        container.register(UploadViewController.self) { r in
+            let controller = UploadViewController()
+            controller.viewModel = r.resolve(UploadViewModel.self)
             return controller
         }
         

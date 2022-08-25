@@ -10,11 +10,13 @@ import UIKit
 class PhotoImage: ImageCompatible {
     var originalImage: UIImage?
     var editedImage: UIImage?
-    var imageURL: String?
+    var imageURL: URL?
+    var imageName: String?
     
     init(imageInfo: [UIImagePickerController.InfoKey : Any]) {
         self.originalImage = imageInfo[.originalImage] as? UIImage
-        self.editedImage = imageInfo[.originalImage] as? UIImage
-        self.imageURL = imageInfo[.imageURL] as? String
+        self.editedImage = imageInfo[.editedImage] as? UIImage
+        self.imageURL = imageInfo[.imageURL] as? URL
+        self.imageName = self.imageURL?.lastPathComponent
     }
 }

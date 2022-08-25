@@ -41,4 +41,12 @@ class MainCoordinator: Coordinator {
         viewController.result = selection
         self.navigationController.present(viewController, animated: true, completion: nil)
     }
+    
+    func upload(images: [ImageCompatible]) {
+        guard let viewController = Container.sharedContainer.resolve(UploadViewController.self) else {
+            return
+        }
+        viewController.images = images
+        self.navigationController.pushViewController(viewController, animated: true)
+    }
 }
